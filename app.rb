@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-require_all './views/*.erb'
+require_all './views'
 
 class App < Sinatra::Base
 
